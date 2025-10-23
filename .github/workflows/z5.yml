@@ -17,7 +17,7 @@ jobs:
       env:
         FILE_URL: ${{ secrets.Z5_FILE_URL }}
       run: |
-        curl -o z5.m3u $FILE_URL
+        curl -o jzee5.mu3 $FILE_URL
 
     - name: Commit and push changes
       env:
